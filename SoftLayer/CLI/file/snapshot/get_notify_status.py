@@ -19,7 +19,7 @@ def cli(env, volume_id):
         click.echo(
             'Enabled:Snapshots space usage threshold warning flag is null. Set to default value enable. For volume %s'
             % (volume_id))
-    elif enabled == 'True':
+    elif enabled == '1' :
         click.echo(
             'Enabled:Snapshots space usage threshold warning flag setting is enabled for volume %s'
             % (volume_id))
